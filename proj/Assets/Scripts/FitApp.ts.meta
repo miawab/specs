@@ -1,0 +1,58 @@
+- !<AssetImportMetadata/4f33f1f9-3203-42cb-b4ce-eecebe4d8ad3>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> dd533092-ba37-4b52-a789-f3be1bfe264c
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> dd533092-ba37-4b52-a789-f3be1bfe264c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b1433042-0cc3-4364-88fc-e81364b13859
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b1433042-0cc3-4364-88fc-e81364b13859>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 95545a3e-442c-4e57-9550-3d0e01666217
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    boxMesh: false
+    devStartWithBoth: false
+    ghostMaterial: false
+    outlineMaterial: false
+    roomRoot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - boxMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      ghostMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      outlineMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      roomRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      devStartWithBoth: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Asset.RenderMesh boxMesh {"hint":"Unit cube mesh (1 x 1 x 1 cm)"}'
+    - '// @input Asset.Material ghostMaterial {"hint":"See-through light grey fill"}'
+    - '// @input Asset.Material outlineMaterial {"hint":"Bright solid outline"}'
+    - '// @input SceneObject roomRoot {"hint":"Parent of the virtual stand-in room"}'
+    - '// @input bool devStartWithBoth {"hint":"Development only: start with both Dells on the desk"}'

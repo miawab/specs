@@ -3,3 +3,8 @@ node_modules/
 Cache/
 Workspaces/
 *.lsproj.user
+video/node_modules
+video/public
+video/out
+gallery/
+HANDOFF.md

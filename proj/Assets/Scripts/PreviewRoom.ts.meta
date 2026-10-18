@@ -1,0 +1,72 @@
+- !<AssetImportMetadata/abb24f0c-dfee-4ee9-a388-c8789b7d62e4>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 8b88a71f-32ee-4ccd-a215-12d25ddc5c86
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 8b88a71f-32ee-4ccd-a215-12d25ddc5c86
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 002e099d-7b79-46f8-854d-b4f9b873a6aa
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/002e099d-7b79-46f8-854d-b4f9b873a6aa>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 30d96bee-e691-45a1-a4e4-395029287e90
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    boxMesh: false
+    coneMesh: false
+    cylinderMesh: false
+    deskWood: false
+    floorWood: false
+    legMetal: false
+    shelfWood: false
+    tableWood: false
+    wallPaint: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - boxMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      cylinderMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      coneMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      deskWood: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      shelfWood: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      floorWood: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      tableWood: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      wallPaint: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      legMetal: !<reference.Material> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"Preview-only room (hidden on device)"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input Asset.RenderMesh boxMesh {"hint":"Unit cube mesh (1 x 1 x 1 cm)"}'
+    - '// @input Asset.RenderMesh cylinderMesh {"hint":"Unit cylinder mesh (1 cm across, 1 cm tall)"}'
+    - '// @input Asset.RenderMesh coneMesh {"hint":"Unit cone mesh (1 cm across, 1 cm tall, apex up)"}'
+    - '// @input Asset.Material deskWood {"hint":"Desk top wood"}'
+    - '// @input Asset.Material shelfWood {"hint":"Dark wood for the shelf"}'
+    - '// @input Asset.Material floorWood {"hint":"Floor wood"}'
+    - '// @input Asset.Material tableWood {"hint":"Second table wood"}'
+    - '// @input Asset.Material wallPaint {"hint":"Light wall paint (also tinted white for the keyboard)"}'
+    - '// @input Asset.Material legMetal {"hint":"Dark metal for desk and table legs"}'

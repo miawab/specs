@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/96dc5b22-333d-4a60-ac22-07a7aeaffe71>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 882f783f-0282-4fe1-9102-0ed9fdc30d94
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 882f783f-0282-4fe1-9102-0ed9fdc30d94
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6f22dbab-5552-49fb-8645-bde5453a941b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/6f22dbab-5552-49fb-8645-bde5453a941b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 0990b760-86fc-409b-987d-c2810708a590
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    openAngle: false
+    openDistance: false
+    openDrop: false
+    textDistance: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - openDistance: !<float> 55.000000
+      openDrop: !<float> 18.000000
+      openAngle: !<float> 38.000000
+      textDistance: !<float> 80.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"Fit Check menu"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Placement"}'
+    - "// @input float openDistance = 70 {\"hint\":\"Distance from the user when opened (cm). 70 keeps it a comfortable far-field pinch; LEAF's IK arm could not press most buttons near-field at 55.\", \"widget\":\"slider\", \"min\":35, \"max\":90, \"step\":1}"
+    - '// @input float openDrop = 18 {"hint":"How far below eye level the menu opens (cm)", "widget":"slider", "min":0, "max":40, "step":1}'
+    - '// @input float openAngle = 38 {"hint":"Degrees to the right of straight ahead, so the menu sits beside the desk, not over the shelf", "widget":"slider", "min":0, "max":60, "step":1}'
+    - '// @input float textDistance = 100 {"hint":"Distance the text sizes are tuned for (cm)", "widget":"slider", "min":40, "max":110, "step":1}'
+    - '// @ui {"widget":"group_end"}'
